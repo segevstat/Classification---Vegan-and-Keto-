@@ -6,6 +6,7 @@ This submission includes:
 - `app.py` – Flask web app for testing the classifier
 - `templates/index.html` – input form for user
 - `README.md` – instructions
+-  `display classify.png` – My local display
 
 ## Run Instructions
 
