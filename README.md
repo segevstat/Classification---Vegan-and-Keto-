@@ -1,4 +1,9 @@
-# Argmax Recipe Classifier Submission
+# Argmax Recipe Classifier Submission - Segev Ohana
+
+As per the task in :
+
+https://github.com/argmaxml/search_by_ingredients
+
 
 This submission includes:
 
