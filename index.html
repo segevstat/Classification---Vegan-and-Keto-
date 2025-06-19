@@ -1,52 +1,20 @@
-{
- "cells": [
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "a06b1fdd",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "<!doctype html>\n",
-    "<html>\n",
-    "  <head>\n",
-    "    <title>Diet Classifier</title>\n",
-    "  </head>\n",
-    "  <body>\n",
-    "    <h1>Recipe Classifier</h1>\n",
-    "    <form method=\"post\">\n",
-    "      <label>Enter ingredients (comma-separated):</label><br>\n",
-    "      <input name=\"ingredients\" size=\"60\" />\n",
-    "      <button type=\"submit\">Classify</button>\n",
-    "    </form>\n",
-    "\n",
-    "    {% if result %}\n",
-    "      <h2>Result: {{ result }}</h2>\n",
-    "    {% endif %}\n",
-    "  </body>\n",
-    "</html>\n"
-   ]
-  }
- ],
- "metadata": {
-  "kernelspec": {
-   "display_name": "Python 3 (ipykernel)",
-   "language": "python",
-   "name": "python3"
-  },
-  "language_info": {
-   "codemirror_mode": {
-    "name": "ipython",
-    "version": 3
-   },
-   "file_extension": ".py",
-   "mimetype": "text/x-python",
-   "name": "python",
-   "nbconvert_exporter": "python",
-   "pygments_lexer": "ipython3",
-   "version": "3.9.13"
-  }
- },
- "nbformat": 4,
- "nbformat_minor": 5
-}
+<!doctype html>
+<html>
+  <head>
+    <title>🥗 Recipe Classifier</title>
+  </head>
+  <body>
+    <h1>🥗 Recipe Classifier</h1>
+
+    <form method="post">
+      <label>Enter ingredients (comma-separated):</label><br>
+      <input type="text" name="ingredients" placeholder="e.g. tofu, spinach, olive oil" />
+      <br><br>
+      <button type="submit">Classify</button>
+    </form>
+
+    {% if result %}
+      <h2>Result: {{ result }}</h2>
+    {% endif %}
+  </body>
+</html>
