@@ -15,11 +15,10 @@ This submission includes:
 
 
 # Hierarchy tree
-
-
-├── diet_classifiers.py      # Classification logic for Vegan and Keto
-├── app.py                   # Flask web app for testing the classifier
+```
+├── diet_classifiers.py      
+├── app.py                  
 ├── templates/
-│   └── index.html           # Input form for user in Flask app
-├── README.md                # Instructions and project overview
-└── classify.png             # Local display screenshot/image
+│   └── index.html          
+├── README.md                
+└── classify.png             
