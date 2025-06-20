@@ -13,15 +13,6 @@ This submission includes:
 - `README.md` – instructions
 -  `display classify.png` – My local display
 
-## Run Instructions
-
-1. Install Flask:
-
-```bash
-pip install flask ```
-
-
-
 
 # Hierarchy tree
 
