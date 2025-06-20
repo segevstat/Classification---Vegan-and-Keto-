@@ -16,7 +16,8 @@ This submission includes:
 
 # Hierarchy tree
 ```
-├── diet_classifiers.py      
+├── diet_classifiers.py
+├── ArgMAx_task.ipynb    
 ├── app.py                  
 ├── templates/
 │   └── index.html          
