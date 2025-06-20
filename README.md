@@ -18,9 +18,12 @@ This submission includes:
 1. Install Flask:
 
 ```bash
-pip install flask
+pip install flask ```
 
-## Hierarchy tree
+
+
+
+# Hierarchy tree
 
 
 ├── diet_classifiers.py      # Classification logic for Vegan and Keto
