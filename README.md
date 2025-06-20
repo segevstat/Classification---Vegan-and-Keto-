@@ -19,3 +19,13 @@ This submission includes:
 
 ```bash
 pip install flask
+
+## Hierarchy tree
+
+
+├── diet_classifiers.py      # Classification logic for Vegan and Keto
+├── app.py                   # Flask web app for testing the classifier
+├── templates/
+│   └── index.html           # Input form for user in Flask app
+├── README.md                # Instructions and project overview
+└── classify.png             # Local display screenshot/image
